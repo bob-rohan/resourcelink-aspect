@@ -1,3 +1,7 @@
 server:
   port: 8235
   context-path: /resourcelinkaspect
+  
+logging:
+  level:
+    root: INFO

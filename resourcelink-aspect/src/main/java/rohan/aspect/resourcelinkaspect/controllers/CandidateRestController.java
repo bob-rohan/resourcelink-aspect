@@ -22,7 +22,7 @@ public class CandidateRestController {
 		Resource<Candidate> candidateResource = candidateService.getCandidateResource();
 		
 		// should not invoke aspect
-		Candidate candidate = candidateService.getCandidate(); 
+		Candidate candidate = candidateService.getCandidate();
 		
 		return candidateResource;
 	}
